@@ -9,10 +9,10 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
-public class LavaFurnace
+public class Main
 {
     @Mod.Instance
-    public static LavaFurnace instance = new LavaFurnace();
+    public static Main instance = new Main();
 
     @SidedProxy(clientSide = "com.mierzen.lavafurnace.proxies.ClientProxy", serverSide = "com.mierzen.lavafurnace.proxies.ServerProxy")
     public static CommonProxy proxy;
