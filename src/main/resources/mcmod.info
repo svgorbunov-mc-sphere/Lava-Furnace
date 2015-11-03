@@ -1,8 +1,8 @@
 [
 {
-  "modid": "lavafurnace"",
+  "modid": "lavafurnace",
   "name": "Lava Furnace",
-  "description": "Enables furnaces to be heated using lava (placed below).",
+  "description": "Enables furnaces to be heated using lava fuel blocks (placed below).",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

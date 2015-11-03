@@ -13,5 +13,4 @@ public class ModBlocks
         GameRegistry.registerBlock(fuelBlock = new FuelBlock("fuelBlock", Material.iron), "fuelBlock");
         GameRegistry.registerTileEntity(FuelTileEntity.class, "fuelBlockTileEntity");
     }
-
 }

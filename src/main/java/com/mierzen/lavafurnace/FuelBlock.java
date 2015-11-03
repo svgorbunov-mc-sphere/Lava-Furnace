@@ -46,14 +46,14 @@ public class FuelBlock extends Block
     @Override
     public void registerBlockIcons(IIconRegister reg)
     {
-        for (int i = 0; i<6; i++) {
+        for (int i = 0; i < 6; i++)
+        {
             if (i == 1)
             {
                 this.icons[i] = reg.registerIcon(this.textureName + "_top");
-            }
-            else
+            } else
             {
-                this.icons[i]=reg.registerIcon(this.textureName+"_side");
+                this.icons[i] = reg.registerIcon(this.textureName + "_side");
             }
         }
     }
