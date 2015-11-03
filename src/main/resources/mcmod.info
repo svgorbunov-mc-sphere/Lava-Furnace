@@ -1,0 +1,16 @@
+[
+{
+  "modid": "lavafurnace"",
+  "name": "Lava Furnace",
+  "description": "Enables furnaces to be heated using lava (placed below).",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Mierzen"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
